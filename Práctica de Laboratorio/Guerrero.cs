@@ -8,17 +8,8 @@ namespace Práctica_de_Laboratorio
 {
     public class Guerrero: Personaje
     {
-        public Guerrero() : base("Guerrero", 120, 15, 5, 0.7)
+        public Guerrero() : base("Guerrero", 120, 20, 5, 0.7)
         {
-        }
-        public override int Atacar()
-        {
-            return Ataque + 5;
-        }
-
-        public override int Curar()
-        {
-            return Curacion;
         }
     }
 }

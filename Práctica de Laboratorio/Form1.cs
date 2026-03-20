@@ -103,11 +103,11 @@ namespace Práctica_de_Laboratorio
             {
                 case "Enemigo":
                     enemigo = new Personaje("Enemigo", 100, 12, 0, 0);
-                    pbEnemigo.Image = Properties.Resources.Jefe;
+                    pbEnemigo.Image = Properties.Resources.Enemigo;
                     break;
                 case "Jefe":
                     enemigo = new Jefe();
-                    pbEnemigo.Image = Properties.Resources.Enemigo;
+                    pbEnemigo.Image = Properties.Resources.Jefe;
                     break;
                 default:
                     MessageBox.Show("Selecciona un enemigo primero");

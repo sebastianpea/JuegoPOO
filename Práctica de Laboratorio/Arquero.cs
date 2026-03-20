@@ -9,17 +9,8 @@ namespace Práctica_de_Laboratorio
 {
     public class Arquero: Personaje
     {
-        public Arquero() : base("Arquero", 100, 18, 10, 0.5)
+        public Arquero() : base("Arquero", 100, 21, 10, 0.5)
         {
-        }
-        public override int Atacar()
-        {
-            return Ataque + 3;
-        }
-
-        public override int Curar()
-        {
-            return Curacion;
         }
     }
 }

@@ -50,8 +50,8 @@
             label2 = new Label();
             cmbEnemigo = new ComboBox();
             label3 = new Label();
-            button1 = new Button();
-            button2 = new Button();
+            btnImagenPersonaje = new Button();
+            btnImagenEnemigo = new Button();
             ((System.ComponentModel.ISupportInitialize)pbJugador).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbEnemigo).BeginInit();
             SuspendLayout();
@@ -283,31 +283,31 @@
             label3.TabIndex = 19;
             label3.Text = "Selección de Enemigo";
             // 
-            // button1
+            // btnImagenPersonaje
             // 
-            button1.BackColor = SystemColors.ActiveCaptionText;
-            button1.Font = new Font("Determination Mono Web", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(12, 93);
-            button1.Name = "button1";
-            button1.Size = new Size(181, 90);
-            button1.TabIndex = 20;
-            button1.Text = "Agregar Imagen de Personaje";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btnImagenPersonaje.BackColor = SystemColors.ActiveCaptionText;
+            btnImagenPersonaje.Font = new Font("Determination Mono Web", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnImagenPersonaje.ForeColor = SystemColors.ButtonFace;
+            btnImagenPersonaje.Location = new Point(12, 93);
+            btnImagenPersonaje.Name = "btnImagenPersonaje";
+            btnImagenPersonaje.Size = new Size(181, 90);
+            btnImagenPersonaje.TabIndex = 20;
+            btnImagenPersonaje.Text = "Agregar Imagen de Personaje";
+            btnImagenPersonaje.UseVisualStyleBackColor = false;
+            btnImagenPersonaje.Click += button1_Click;
             // 
-            // button2
+            // btnImagenEnemigo
             // 
-            button2.BackColor = SystemColors.ActiveCaptionText;
-            button2.Font = new Font("Determination Mono Web", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.ForeColor = SystemColors.ButtonFace;
-            button2.Location = new Point(22, 279);
-            button2.Name = "button2";
-            button2.Size = new Size(181, 90);
-            button2.TabIndex = 21;
-            button2.Text = "Agregar Imagen de Enemigo";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            btnImagenEnemigo.BackColor = SystemColors.ActiveCaptionText;
+            btnImagenEnemigo.Font = new Font("Determination Mono Web", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnImagenEnemigo.ForeColor = SystemColors.ButtonFace;
+            btnImagenEnemigo.Location = new Point(22, 279);
+            btnImagenEnemigo.Name = "btnImagenEnemigo";
+            btnImagenEnemigo.Size = new Size(181, 90);
+            btnImagenEnemigo.TabIndex = 21;
+            btnImagenEnemigo.Text = "Agregar Imagen de Enemigo";
+            btnImagenEnemigo.UseVisualStyleBackColor = false;
+            btnImagenEnemigo.Click += button2_Click;
             // 
             // Form1
             // 
@@ -316,8 +316,8 @@
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1902, 1033);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnImagenEnemigo);
+            Controls.Add(btnImagenPersonaje);
             Controls.Add(label3);
             Controls.Add(cmbEnemigo);
             Controls.Add(label2);
@@ -372,7 +372,7 @@
         private Label label2;
         private ComboBox cmbEnemigo;
         private Label label3;
-        private Button button1;
-        private Button button2;
+        private Button btnImagenPersonaje;
+        private Button btnImagenEnemigo;
     }
 }

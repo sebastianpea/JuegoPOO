@@ -8,13 +8,8 @@ namespace Práctica_de_Laboratorio
 {
     public class Jefe: Personaje
     {
-            public Jefe() : base("Jefe", 200, 20, 0, 0.3)
+            public Jefe() : base("Jefe", 200, 40, 0, 0.3)
             {
-            }
-
-            public override int Atacar()
-            {
-                return Ataque + 20;
             }
     }
 }
